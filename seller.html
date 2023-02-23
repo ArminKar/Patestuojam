@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>SELLER PAGE</title>
+        <link rel="stylesheet" href="signup.css">
+        <link rel="stylesheet" href="seller.css">
+    </head>
+    <body>
+
+        <img src="loader.gif" class="loader" id="loader" alt="">
+
+        <div class="alert-box">
+            <img src="error.png" class="alert-img" alt="">
+            <p class="alert-msg">Error message</p>
+        </div>
+
+        <img src="light-logo.png" class="logo" alt="">
+
+        <div class="become-seller">
+            <p class="heading">become a seller</p>
+            <p class="des">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam soluta aperiam illum perferendis ipsum esse ducimus. </p>
+            <button class="btn" id="apply-btn">apply for seller account</button>
+        </div>
+        
+        <div class="apply-form hide">
+           <input type="text" id="business-name" placeholder="business-name / company name / shop name">
+            <textarea id="business-add" placeholder="address"></textarea>
+            <textarea id="about" placeholder="about"></textarea>
+            <input type="text" id="number" placeholder="number">
+            <br>
+            <input type="checkbox" checked class="checkbox" id="terms-and-cond">
+            <label for="terms-and-cond">agree to our <a href="">terms and conditions</a></label>
+            <br>
+            <input type="checkbox" class="checkbox" id="legitInfo">
+            <label for="legitInfo">all information is legit</a></label>
+            <button class="submit-btn" id="apply-form-btn">apply</button>
+        </div>
+
+        <div class="product-listing hide">
+            <div class="add-product">
+                <p class="add-product-title">add product</p>
+                <button class="btn">add product</button>
+            </div>
+            <img src="no-products.png" class="no-product-image" alt="">
+        </div>
+
+        <script src="token.js"></script>
+        <script src="seller.js"></script>
+
+    </body>
+    </html>
